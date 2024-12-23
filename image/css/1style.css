@@ -1,0 +1,298 @@
+*{
+    margin: 0%;
+    padding: 0%;
+    font-family: "Amazon Ember", Arial, sans-serif;
+}
+.header{
+    background-color: black;
+    display: flex;
+    height: 60px;
+    width: 1260px;
+}
+.header img{
+    height: 46px;
+    width: 109px;
+    margin-top: 10px;
+}
+
+.containar{
+    color: white;
+    margin: 12px -10px 0px 0px;
+    padding: 0px 12px 0px 0px;
+}
+
+#loc1{
+    color: white;
+    font-size: 30px;
+    margin: 1px 0px 0px 0px;
+    padding: 12px 10px;
+}
+
+.search{
+    height: 47px;
+    width: 513px;
+    margin: 14px 0px 0px 0px;
+}
+
+.left-search select{
+    height: 35px;
+    width: 40px;
+    border-radius: 6px 0px 0px 6px;
+}
+
+input {
+    height: 30px;
+    width: 413px;
+    margin: 0px -4px;
+}
+
+#icon{
+    height: 0px;
+    background-color: #FFD54F;
+    margin: 0px 0px 34px 0px;
+    box-sizing: border-box;
+    padding: 7px 16px 27px 12px;
+    font-size: 17px;
+    font-weight: bolder;
+    border-radius: 0px 6px 6px 0px;
+}
+
+
+.main-containar{
+    height: 39px;
+    width: 452px;
+    margin: 27px 0px 0px 0px;
+}
+
+
+.container{    
+    margin: 9px 10px;
+}
+
+#lang{
+    height: 42px;
+    width: 54px;
+    margin: 0px 0px;
+    border-radius: 6px;
+}
+.text{
+    margin: 10px 10px;
+}
+
+#txt1{
+    color: white;
+    margin: 4px 0px 0px 2px;
+}
+#txt2{
+    color: white;
+}
+
+.txt1{
+    margin: 10px 10px;
+}
+
+#text1{
+    color: white;
+    margin: 4px 0px 0px 2px;
+}
+#text2{
+    color: white;
+}
+
+.cart1{
+    color: white;
+    margin: 17px 2px 0px 3px;
+    font-size: 30px;
+}
+
+.cart{
+    color: white;
+    margin: 27px 0px 20px 0px;
+    font-size: 21px;
+    font-weight: bold;
+}
+
+.navbar{
+    background-color: #232f3e;
+    height: 33px;
+    width: 1260px;
+    padding-top: 8px;
+}
+
+.navbar ul li{
+    display: inline;
+    margin: 1px 7px 15px 5px;
+    font-size: 15px;
+    color: white;
+}
+
+.section img{
+    height: 300px;
+    width: 1260px;
+}
+
+.main-box{
+    height: 380px;
+    width: 1227px;
+    margin: 5px 0px 0px 15px;
+    display: flex;
+    flex-direction: row;
+}
+
+.box1{
+    height: 90%;
+    width: 247px;
+    margin: 28px;
+    background-color: rgb(239, 228, 228);
+    box-shadow: 0px 0px 16px 15px rgb(221, 225, 227);
+}
+
+.box2{
+    height: 50px;
+    width: 100px;
+    border: 2px solid blue;
+}
+
+.image{
+    padding: 4px;
+}
+
+#img{
+    height: 90px;
+    width: 90px;
+    margin: 0px 13px 10px 13px;
+}
+
+#para{
+    font-size: 22px;
+    margin: 30px 10px 0px 15px;
+}
+#para1{
+    margin: 15px 10px;
+}
+
+.img-1{
+    height: 355px;
+    width: 1260px;
+
+}
+
+.slider-container {
+    position: relative;
+     width: 1280px;
+    max-width: 1210px;
+    overflow: hidden;
+    margin: 29px 27px;
+    box-shadow: 0px 0px 43px 32px rgb(221, 237, 249);
+}
+
+.slider {
+    display: flex;
+    transition: transform 0.5s ease;
+}
+
+.slide {
+    min-width: 100%;
+    transition: opacity 0.5s ease;
+}
+
+.slide img {
+    width: 1260px;
+    height: 254px;
+}
+
+.button {
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    background-color: rgba(0, 0, 0, 0.5);
+    color: white;
+    border: none;
+    padding: 10px;
+    font-size: 18px;
+    cursor: pointer;
+    z-index: 10;
+    border-radius: 50%;
+}
+
+#prev {
+    left: 10px;
+}
+
+#next {
+    right: 10px;
+}
+
+button:hover {
+    background-color: rgba(0, 0, 0, 0.8);
+}
+
+
+.footer{
+    display: flex;
+    background-color: #FFD54F;
+    color: white;
+}
+
+.sign-in{
+    width: 1260px;
+    height: 100px;
+    margin: 10px 10px 10px;   
+}
+
+#txet3{
+    text-align: center;
+}
+#btn-sign{
+    background-color: #FFD54F;
+    margin-left: 542px;
+    margin-top: 7px;
+    font-size: 17px;
+    padding: 5px 70px;
+    margin-bottom: 12px;
+    border-radius: 32px;
+    border: none;
+}
+
+.back{
+    color: white;
+    background-color: #37475A;
+    text-align: center;
+    padding: 15px;
+}
+.back a{
+    color: white;
+    text-decoration: none;
+}
+.footer{
+    background-color: #232F3E;
+}
+
+.box-1
+{
+    margin: 42px;
+    word-spacing: 2px;
+    padding-left: 100px;
+}
+
+.box-2
+{
+    margin: 42px;
+    word-spacing: 2px;
+}
+
+.box-3
+{
+    margin: 42px;
+    word-spacing: 2px;
+}
+
+.box-4
+{
+    margin: 42px;
+    word-spacing: 2px;
+}
+
+.footer p{
+    margin: 10px;
+}
